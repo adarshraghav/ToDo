@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF14984E2642D0CA00CF27EF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14984D2642D0CA00CF27EF /* ToDo.swift */; };
+		EF1498512643995700CF27EF /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1498502643995700CF27EF /* DataStore.swift */; };
 		EFB20F98264186AF00AA9332 /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB20F97264186AF00AA9332 /* ToDoApp.swift */; };
 		EFB20F9A264186AF00AA9332 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB20F99264186AF00AA9332 /* ContentView.swift */; };
 		EFB20F9C264186B000AA9332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB20F9B264186B000AA9332 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF14984D2642D0CA00CF27EF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		EF1498502643995700CF27EF /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		EFB20F94264186AF00AA9332 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB20F97264186AF00AA9332 /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		EFB20F99264186AF00AA9332 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				EFB20F97264186AF00AA9332 /* ToDoApp.swift */,
 				EFB20F99264186AF00AA9332 /* ContentView.swift */,
+				EF14984D2642D0CA00CF27EF /* ToDo.swift */,
+				EF1498502643995700CF27EF /* DataStore.swift */,
 				EFB20F9B264186B000AA9332 /* Assets.xcassets */,
 				EFB20FA0264186B000AA9332 /* Info.plist */,
 				EFB20F9D264186B000AA9332 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF14984E2642D0CA00CF27EF /* ToDo.swift in Sources */,
+				EF1498512643995700CF27EF /* DataStore.swift in Sources */,
 				EFB20F9A264186AF00AA9332 /* ContentView.swift in Sources */,
 				EFB20F98264186AF00AA9332 /* ToDoApp.swift in Sources */,
 			);
